@@ -1,24 +1,16 @@
 import React from "react";
-import "./App.css";
+import CircleProfile from "./components/Profile";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <CircleProfile
+        name="한영수"
+        age={29}
+        profileImgUrl="https://www.fillmurray.com/g/200/300"
+      />
+
+      <CircleProfile name="한종수" age={24} />
     </div>
   );
 }
-
-export default App;

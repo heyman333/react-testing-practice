@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profile /> with Image interaction matches snapshot 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="profileWrapper"
+      data-testid="imageWrapper"
+    >
+      <img
+        alt="프로필이미지"
+        class="img"
+        src="https://www.fillmurray.com/360/360"
+      />
+    </div>
+    <div>
+      한영수
+    </div>
+    <div>
+      29
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<Profile /> without Image interaction matches snapshot 1`] = `
+<div>
+  <div
+    class="wrapper"
+  >
+    <div
+      class="profileWrapper"
+      data-testid="imageWrapper"
+    />
+    <div>
+      한영수
+    </div>
+    <div>
+      29
+    </div>
+  </div>
+</div>
+`;
